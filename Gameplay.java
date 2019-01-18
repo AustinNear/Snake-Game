@@ -100,7 +100,7 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener{
 		if(gameover == true) {
 			graphics.setColor(Color.RED);
 			graphics.setFont(new Font("arial", Font.BOLD, 50));		//text to inform the end of the game and how to restart
-			graphics.drawString("GAME OVER PALSY-EYES", 250, 300);
+			graphics.drawString("GAME OVER", 250, 300);
 			graphics.setFont(new Font("arial", Font.BOLD, 25));
 			graphics.drawString("SPACE RESTART", 300, 600);
 		}
